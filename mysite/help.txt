@@ -1,0 +1,11 @@
+newone@GetRekt:~/udemy/My_Django_Stuff$ source activate myDjangoEnv
+(myDjangoEnv) newone@GetRekt:~/udemy/My_Django_Stuff$ cd big_project1/
+(myDjangoEnv) newone@GetRekt:~/udemy/My_Django_Stuff/big_project1$ django-admin startproject mysite
+cd (myDjangoEnv) newone@GetRekt:~/udemy/My_Django_Stuff/big_project1$ cd mysite/
+(myDjangoEnv) newone@GetRekt:~/udemy/My_Django_Stuff/big_project1/mysite$ django-admin startapp blog
+python manage.py migrate
+python manage.py makemigrations blog
+python manage.py migrate
+python manage.py runserver
+
+vytvorit models, urls,
